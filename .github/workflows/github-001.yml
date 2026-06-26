@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sync
-        uses: shuifan-open/github-repository-sync-action@v2
+        uses: shuifan-open/github-repository-sync-action@v3
         with:
           secret_config: ${{ secrets.SECRET_CONFIG }}
           variable_config: ${{ vars.VARIABLE_CONFIG }}
